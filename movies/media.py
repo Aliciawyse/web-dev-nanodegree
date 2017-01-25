@@ -1,8 +1,10 @@
 #In this file we create the class Movie
 import webbrowser
 
-
+#Create class Movie
 class Movie():
+    
+    #class's constructor is called each time an instance of Movie is created
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
