@@ -1,0 +1,49 @@
+body {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header, section, img, p {
+    flex: 1 100%;
+}
+
+header {
+    background: #33BEBE;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    text-transform: uppercase;
+    margin-top: .5%
+}
+
+
+h1 {
+    padding: 1%;
+    padding-top: .75%;
+    padding-bottom: 0%;
+    margin-bottom: 0%
+}
+
+section {
+    position: relative;
+    margin-top: 2.75%;
+}
+
+img {
+    margin-right: .95%;
+    width: 30%;
+}
+
+
+p {
+    color: #7C8B88;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    display: inline-block;
+    font-size: 115%;
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+}
