@@ -3,42 +3,53 @@
 <html>
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <meta charset="UTF-8">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" name="viewport" >
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Alicia's Portfolio Website</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 </head>
 
   <body>
 
     <div class="container">
       <div class="row">
+
         <div class= "col-md-6">
-          <img src="http://placehold.it/100x100">
+          <img src="images/alicia.jpg" class="img-responsive" id="my-pic">
         </div>
 
         <div class= "col-md-6 text-right text-uppercase" alt="">
-          <h1>Jane Doette</h1>
-          <h3>Front-end Ninja</h3>
+          <h1>Alicia Barrett</h1>
+          <h3>Web Developer</h3>
         </div>
-      </div>
 
-      <div class= "row">
         <div class= "col-md-12">
-          <hr>
-      </div>
-
-
-      <div class= "row">
-        <div class = "col-md-12">
-          <img src="http://placehold.it/1140x350" class="img-responsive">
+          <hr >
         </div>
+
+        <div class = "col-md-12" >
+          <img id="halo"class="img-responsive">
+        </div>
+
         <div class = "col-md-12">
             <h2>Featured Work</h2>
         </div>
+
       </div>
 
       <div class= "row">
@@ -57,6 +68,7 @@
           <a href="http://github.com/">Link to project</a>
           </p>
         </div>
+
       </div>
 
       <div class= "row">
@@ -84,11 +96,11 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    <h4 class="modal-title" id="myModalLabel">New website for CoderDojo McDonough</h4>
                 </div>
                 <div class="modal-body">
                     <img src="images/coder-dojo.png" class="img-responsive" style="width:555px;height:300px;" data-toggle="modal" data-target="#myModal">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
+                    I volunteered to create a new website for the CoderDojo club in McDonough, GA.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -97,10 +109,24 @@
         </div>
     </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">New website for CoderDojo McDonough</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/coder-dojo.png" class="img-responsive" style="width:555px;height:300px;" data-toggle="modal" data-target="#myModal">
+                    I volunteered to create a new website for the CoderDojo club in McDonough, GA.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
   </body>
 </html>

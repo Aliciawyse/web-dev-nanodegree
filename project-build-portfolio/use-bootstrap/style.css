@@ -1,0 +1,10 @@
+#my-pic{
+    width: 25%;
+}
+
+#halo {
+    width: 100%;
+    height: 400px;
+    background-image: url('images/desk-laptop.jpg');
+    background-size: cover;
+}
