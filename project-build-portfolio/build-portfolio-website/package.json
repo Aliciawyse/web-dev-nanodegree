@@ -1,0 +1,18 @@
+{
+  "name": "udacity-project",
+  "version": "1.0.0",
+  "description": "This website is a mini project assignment by Udacity where I am given a mock-up (this time a website showcasing my portfolio). I had to code it from scratch using a css-framwework provided by Udacity. No bootstrap allowed -- yet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-responsive-images": "^1.10.1"
+  }
+}
