@@ -1,0 +1,71 @@
+main {
+        width: 95%;
+        text-align: center;
+    }
+
+body {
+    margin: 3%;
+    margin-top: 1%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #404040;
+}
+
+header, h2, h3  {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+hr {
+    margin-top: 2%;
+}
+
+h1 {
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    text-align: center;
+}
+
+@media screen and (min-width: 1300px){
+    .box {
+        width: 31%;
+        margin-left: 2%;
+        display: inline-block;
+        padding: 0;
+    }
+
+/*Put the two floated divs into header that's got "overflow: hidden" set to add margin-top to hr tag */
+
+    header {
+        position: relative;
+        display: block;
+        overflow: hidden;
+    }
+
+    header >img {
+        float: left;
+}
+    header > aside {
+        float: right;
+    }
+
+    aside > h2 {
+    text-align: right;
+}
+
+    .seperator {
+        clear: both;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+}
