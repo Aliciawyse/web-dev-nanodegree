@@ -1,20 +1,21 @@
 main {
-        width: 95%;
         text-align: center;
     }
 
 body {
     margin: 3%;
     margin-top: 1%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: #404040;
+    width: 70%;
+    margin: 0 auto;
 }
 
 header, h2, h3  {
     text-align: center;
     text-transform: uppercase;
+
 }
 
 hr {
@@ -22,22 +23,57 @@ hr {
 }
 
 h1 {
-    font-size: 300%;
+    font-size: 250%;
     margin: 0;
     padding: 0;
 }
 
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    padding: 0;
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-size: 1.75em;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 6%;
+    font-size: 1.3em;
+}
+
+picture > img {
+    max-width: 100%;
+}
+
+aside > h2 {
+    margin-top: 0;
+}
 
 .container {
     text-align: center;
+    overflow: hidden;
 }
 
-@media screen and (min-width: 1300px){
+.portfolio {
+    max-width: 100%;
+    margin-left: 0;
+}
+
+@media screen and (min-width: 1000px){
+    .container {
+        display: flex;
+    }
+
     .box {
-        width: 31%;
-        margin-left: 2%;
-        display: inline-block;
-        padding: 0;
+        flex-grow: 1;
+    }
+
+    main > h2 {
+        text-align: left;
     }
 
 /*Put the two floated divs into header that's got "overflow: hidden" set to add margin-top to hr tag */
@@ -58,7 +94,6 @@ h1 {
     aside > h2 {
     text-align: right;
 }
-
     .seperator {
         clear: both;
         margin-top: 10px;
